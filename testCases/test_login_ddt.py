@@ -40,6 +40,7 @@ class Test_Login_002_DDT:
                 self.driver.save_screenshot(self.basePath+"/Screenshots/"+type(self).__name__+"[ "+inspect.stack()[0][3]+" ].png")
                 self.logger.error("######## Test case failed ########")
                 self.driver.close()
+
                 assert False
 
 
